@@ -109,7 +109,7 @@ void shift(int a[], int i, int n)
 }
 void HeapSort(int a[], int n)
 {
-	int i = n/2;
+	int i = (n/2) - 1;
 	while (i >= 0)	
 	{	
 		shift(a, i, n-1);	
